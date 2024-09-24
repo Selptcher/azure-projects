@@ -1,0 +1,11 @@
+Create a VM
+Go to Microsoft Sentinel in the Portal
+- create a log analytic workspace in same region as VM
+- add to Microsoft Sentinel once done creating
+Setup a data connector
+- In your Sentinel instance, go to data connectors, then content hub
+- search for azure monitor agent and select windows security events
+- go back to data connectors and select Windows security events with AMA then click Open connectors
+- click create data collection rule
+- select your VM and collect all security events
+
