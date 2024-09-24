@@ -8,4 +8,14 @@ Setup a data connector
 - go back to data connectors and select Windows security events with AMA then click Open connectors
 - click create data collection rule
 - select your VM and collect all security events
+Setup alerts
+- Go to Sentinel>Logs
+- create a query on the Security Event for the citeria you are looking for
+- Click New alert rule>Create Microsoft Sentinel Rule
+- General>Enter in name, select severity, select tactics to relate to this rule
+- Set rule logic>ensure query is correct, set query schedule
+- create and validate rule
+
+Check Sentinel for generate alerts based off new rule
+You can check to see exisitng rules under Analytics
 
